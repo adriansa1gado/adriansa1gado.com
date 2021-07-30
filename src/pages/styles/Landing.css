@@ -1,0 +1,12 @@
+.Landing {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  background: url(../../images/space.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.Landing-info {
+  margin-left: 5%;
+}
