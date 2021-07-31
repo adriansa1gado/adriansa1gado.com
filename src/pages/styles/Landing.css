@@ -2,9 +2,10 @@
   height: 100vh;
   display: flex;
   align-items: center;
-  background: url(../../images/space.jpg);
+  background: url(../../images/cold.png);
   background-position: center;
   background-size: cover;
+  color: #ffffff;
 }
 
 .Landing-info {

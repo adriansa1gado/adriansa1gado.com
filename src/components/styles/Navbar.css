@@ -4,19 +4,22 @@
   position: absolute;
   top: 0;
   padding: 0 5%;
+}
+
+.Navbar__content {
+  line-height: 70px;
+}
+
+.Brand-logo {
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: inherit;
 }
 
-.Navbar__list {
-  min-width: 60%;
-  margin: 0;
-  padding: 0;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
-}
-
-.Navbar__item {
-  text-align: center;
+.Brand-logo i {
+  font-size: 2.2rem;
+  font-weight: 700;
+  padding-right: 2px;
 }
