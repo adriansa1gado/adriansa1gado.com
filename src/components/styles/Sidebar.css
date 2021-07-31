@@ -1,6 +1,6 @@
 .Sidebar {
   width: 78px;
-  padding: 24px 10px 0 10px;
+  padding: 24px 15px 0 15px;
   position: fixed;
   right: 0;
   top: 0;
@@ -9,16 +9,22 @@
   transition: all 0.5s ease;
 }
 
+.Sidebar .links-name {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.Sidebar--active .links-name {
+  opacity: 1;
+  pointer-events: auto;
+}
+
 .Sidebar--active {
   width: 240px;
 }
 
 .Sidebar--active .Sidebar__content span {
-  order: 1;
-}
-
-.Sidebar--active .Sidebar__content .Sidebar-menu {
-  order: 2;
+  display: flex;
 }
 
 .Sidebar__content {
@@ -28,13 +34,12 @@
 }
 
 .Sidebar__content span {
-  order: 2;
+  display: none;
   margin-left: 15px;
   line-height: 28px;
 }
 
 .Sidebar-menu {
-  order: 1;
   margin-left: 10px;
   font-size: 2.2rem;
 }
@@ -57,6 +62,7 @@
   line-height: 40px;
   border-radius: 8px;
   transition: all 0.4s ease;
+  white-space: nowrap;
 }
 
 .Sidebar__item-tooltip {
@@ -81,12 +87,16 @@
   background: #ffffff;
 }
 
+.Sidebar__item a i {
+  min-width: 50px;
+}
+
 .Sidebar__item:hover .Sidebar__item-tooltip {
   transition: all 0.5s ease;
   opacity: 1;
   top: 50%;
 }
 
-.Sidebar__item a i {
-  min-width: 50px;
+.Sidebar--active .Sidebar__item-tooltip {
+  display: none;
 }
