@@ -1,0 +1,102 @@
+.Sidebar {
+  width: 78px;
+  padding: 24px 15px 0 15px;
+  position: fixed;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: #050018;
+  transition: all 0.5s ease;
+}
+
+.Sidebar .links-name {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.Sidebar--active .links-name {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.Sidebar--active {
+  width: 240px;
+}
+
+.Sidebar--active .Sidebar__content span {
+  display: flex;
+}
+
+.Sidebar__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Sidebar__content span {
+  display: none;
+  margin-left: 15px;
+  line-height: 28px;
+}
+
+.Sidebar-menu {
+  margin-left: 10px;
+  font-size: 2.2rem;
+}
+
+.Sidebar__list {
+  margin: 0;
+  padding: 24px 0 0 0;
+}
+
+.Sidebar__item {
+  height: 50px;
+  position: relative;
+  text-align: center;
+}
+
+.Sidebar__item a {
+  display: flex;
+  color: #ffffff;
+  align-items: center;
+  line-height: 40px;
+  border-radius: 8px;
+  transition: all 0.4s ease;
+  white-space: nowrap;
+}
+
+.Sidebar__item-tooltip {
+  position: absolute;
+  height: 35px;
+  line-height: 35px;
+  width: 122px;
+  top: 0;
+  left: -112px;
+  transform: translateY(-50%);
+  background: #ffffff;
+  border-radius: 6px;
+  box-shadow: 0 5px 10px #0000003d;
+  color: #050018;
+  transition: 0s;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.Sidebar__item a:hover {
+  color: #050018;
+  background: #ffffff;
+}
+
+.Sidebar__item a i {
+  min-width: 50px;
+}
+
+.Sidebar__item:hover .Sidebar__item-tooltip {
+  transition: all 0.5s ease;
+  opacity: 1;
+  top: 50%;
+}
+
+.Sidebar--active .Sidebar__item-tooltip {
+  display: none;
+}
