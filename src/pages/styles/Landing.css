@@ -5,7 +5,8 @@
   background-image: linear-gradient(90deg, #00010e 20%, #00010c2c),
     url('../../images/alone.png');
   background-position: center;
-  background-size: cover;
+  background-size: auto;
+  background-repeat: no-repeat;
   color: #ffffff;
 }
 
