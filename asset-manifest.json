@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/adriansa1gado.com/static/css/main.a6414a42.chunk.css",
-    "main.js": "/adriansa1gado.com/static/js/main.7256280e.chunk.js",
-    "main.js.map": "/adriansa1gado.com/static/js/main.7256280e.chunk.js.map",
-    "runtime-main.js": "/adriansa1gado.com/static/js/runtime-main.0e57467c.js",
-    "runtime-main.js.map": "/adriansa1gado.com/static/js/runtime-main.0e57467c.js.map",
-    "static/js/2.f31e81e1.chunk.js": "/adriansa1gado.com/static/js/2.f31e81e1.chunk.js",
-    "static/js/2.f31e81e1.chunk.js.map": "/adriansa1gado.com/static/js/2.f31e81e1.chunk.js.map",
-    "index.html": "/adriansa1gado.com/index.html",
-    "static/css/main.a6414a42.chunk.css.map": "/adriansa1gado.com/static/css/main.a6414a42.chunk.css.map",
-    "static/js/2.f31e81e1.chunk.js.LICENSE.txt": "/adriansa1gado.com/static/js/2.f31e81e1.chunk.js.LICENSE.txt",
-    "static/media/Landing.css": "/adriansa1gado.com/static/media/alone.169992bc.png"
+    "main.css": "/static/css/main.da2a887e.chunk.css",
+    "main.js": "/static/js/main.2d34b4eb.chunk.js",
+    "main.js.map": "/static/js/main.2d34b4eb.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.d35a3416.js",
+    "runtime-main.js.map": "/static/js/runtime-main.d35a3416.js.map",
+    "static/js/2.f31e81e1.chunk.js": "/static/js/2.f31e81e1.chunk.js",
+    "static/js/2.f31e81e1.chunk.js.map": "/static/js/2.f31e81e1.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.da2a887e.chunk.css.map": "/static/css/main.da2a887e.chunk.css.map",
+    "static/js/2.f31e81e1.chunk.js.LICENSE.txt": "/static/js/2.f31e81e1.chunk.js.LICENSE.txt",
+    "static/media/Landing.css": "/static/media/alone.169992bc.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.0e57467c.js",
+    "static/js/runtime-main.d35a3416.js",
     "static/js/2.f31e81e1.chunk.js",
-    "static/css/main.a6414a42.chunk.css",
-    "static/js/main.7256280e.chunk.js"
+    "static/css/main.da2a887e.chunk.css",
+    "static/js/main.2d34b4eb.chunk.js"
   ]
 }
