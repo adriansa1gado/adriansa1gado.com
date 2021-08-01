@@ -30,12 +30,12 @@ a {
 
 .btn--link {
   padding: 10px 15px;
-  border: 1px solid #ff6600;
+  border: 1px solid #6900a7;
   border-radius: 10px;
   transition: all 0.5s ease;
 }
 
 .btn--link:hover {
-  background: #ff6600;
+  background: #6900a7;
   color: #050018;
 }

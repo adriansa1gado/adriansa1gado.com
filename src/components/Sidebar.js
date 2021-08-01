@@ -20,45 +20,57 @@ function Sidebar() {
       </div>
       <ul className="Sidebar__list">
         <li className="Sidebar__item">
-          <Link to="">
+          <Link to="/portfolio">
             <i className="bx bx-folder"></i>
             <span className="links-name">Portafolio</span>
           </Link>
           <span className="Sidebar__item-tooltip">Portafolio</span>
         </li>
         <li className="Sidebar__item">
-          <Link to="">
+          <Link to="/about">
             <i className="bx bx-meh-blank"></i>
             <span className="links-name">About</span>
           </Link>
           <span className="Sidebar__item-tooltip">About</span>
         </li>
         <li className="Sidebar__item">
-          <Link to="">
+          <a href="">
             <i className="bx bx-download"></i>
             <span className="links-name">Download CV</span>
-          </Link>
+          </a>
           <span className="Sidebar__item-tooltip">Download CV</span>
         </li>
         <li className="Sidebar__item">
-          <Link target="_blank" to="">
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://twitter.com/adriansa1gado"
+          >
             <i className="bx bxl-twitter"></i>
             <span className="links-name">Twitter</span>
-          </Link>
+          </a>
           <span className="Sidebar__item-tooltip">Twitter</span>
         </li>
         <li className="Sidebar__item">
-          <Link target="_blank" to="">
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://github.com/adriansa1gado"
+          >
             <i className="bx bxl-github"></i>
             <span className="links-name">Github</span>
-          </Link>
+          </a>
           <span className="Sidebar__item-tooltip">Github</span>
         </li>
         <li className="Sidebar__item">
-          <Link target="_blank" to="">
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://www.linkedin.com/in/droxander/"
+          >
             <i className="bx bxl-linkedin-square"></i>
             <span className="links-name">Linkedin</span>
-          </Link>
+          </a>
           <span className="Sidebar__item-tooltip">Linkedin</span>
         </li>
       </ul>
