@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/adriansa1gado.com/static/css/main.a6414a42.chunk.css",
+    "main.js": "/adriansa1gado.com/static/js/main.7256280e.chunk.js",
+    "main.js.map": "/adriansa1gado.com/static/js/main.7256280e.chunk.js.map",
+    "runtime-main.js": "/adriansa1gado.com/static/js/runtime-main.0e57467c.js",
+    "runtime-main.js.map": "/adriansa1gado.com/static/js/runtime-main.0e57467c.js.map",
+    "static/js/2.f31e81e1.chunk.js": "/adriansa1gado.com/static/js/2.f31e81e1.chunk.js",
+    "static/js/2.f31e81e1.chunk.js.map": "/adriansa1gado.com/static/js/2.f31e81e1.chunk.js.map",
+    "index.html": "/adriansa1gado.com/index.html",
+    "static/css/main.a6414a42.chunk.css.map": "/adriansa1gado.com/static/css/main.a6414a42.chunk.css.map",
+    "static/js/2.f31e81e1.chunk.js.LICENSE.txt": "/adriansa1gado.com/static/js/2.f31e81e1.chunk.js.LICENSE.txt",
+    "static/media/Landing.css": "/adriansa1gado.com/static/media/alone.169992bc.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0e57467c.js",
+    "static/js/2.f31e81e1.chunk.js",
+    "static/css/main.a6414a42.chunk.css",
+    "static/js/main.7256280e.chunk.js"
+  ]
+}
