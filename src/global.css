@@ -27,3 +27,15 @@ a {
   border: none;
   color: inherit;
 }
+
+.btn--link {
+  padding: 10px 15px;
+  border: 1px solid #ff6600;
+  border-radius: 10px;
+  transition: all 0.5s ease;
+}
+
+.btn--link:hover {
+  background: #ff6600;
+  color: #050018;
+}
