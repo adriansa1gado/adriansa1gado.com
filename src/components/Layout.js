@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import Sidebar from './Sidebar'
 import './styles/Layout.css'
 
@@ -6,10 +7,10 @@ function Layout({ children }) {
     <>
       <header className="Navbar">
         <nav className="Navbar__content">
-          <span className="Brand-logo">
+          <Link to="/" className="Brand-logo">
             <i className="bx bxl-react"></i>
             Logo
-          </span>
+          </Link>
         </nav>
         <Sidebar />
       </header>

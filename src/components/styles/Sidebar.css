@@ -23,7 +23,7 @@
   width: 240px;
 }
 
-.Sidebar--active .Sidebar__content span {
+.Sidebar--active .Sidebar__content a {
   display: flex;
 }
 
@@ -33,7 +33,7 @@
   align-items: center;
 }
 
-.Sidebar__content span {
+.Sidebar__content a {
   display: none;
   margin-left: 15px;
   line-height: 28px;

@@ -10,10 +10,10 @@ function Sidebar() {
   return (
     <div className="Sidebar">
       <div className="Sidebar__content">
-        <span className="Brand-logo">
+        <Link to="/" className="Brand-logo">
           <i className="bx bxl-react"></i>
           Logo
-        </span>
+        </Link>
         <button onClick={sidebarActive} className="btn Sidebar-menu">
           <i className="bx bx-menu"></i>
         </button>
@@ -34,7 +34,11 @@ function Sidebar() {
           <span className="Sidebar__item-tooltip">About</span>
         </li>
         <li className="Sidebar__item">
-          <a href="">
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://drive.google.com/uc?id=1GPwcbGoPntcenbh55rXPMC8vLUHU3n6b&export=download"
+          >
             <i className="bx bx-download"></i>
             <span className="links-name">Download CV</span>
           </a>

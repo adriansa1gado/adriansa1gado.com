@@ -8,7 +8,9 @@
 }
 
 .Navbar__content {
-  line-height: 70px;
+  height: inherit;
+  display: flex;
+  align-items: center;
 }
 
 .Brand-logo {
@@ -16,7 +18,6 @@
   align-items: center;
   font-size: 2rem;
   font-weight: 700;
-  line-height: inherit;
 }
 
 .Brand-logo i {

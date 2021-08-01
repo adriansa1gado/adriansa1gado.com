@@ -2,8 +2,8 @@
   height: 100vh;
   display: flex;
   align-items: center;
-  background-image: linear-gradient(90deg, #00010e 20%, #00010c2c),
-    url('../../images/alone.png');
+  background-image: linear-gradient(90deg, #00010e 25%, #00010c2c, #00010c 95%),
+    url('../../images/background.png'), linear-gradient(90deg, #00010e, #00010e);
   background-position: center;
   background-size: auto;
   background-repeat: no-repeat;
@@ -11,20 +11,44 @@
 }
 
 .Landing-info {
-  margin-left: 5%;
+  margin: 0px 78px 0px 5%;
 }
 
 .title {
-  font-size: 5.5rem;
+  font-size: 5rem;
   color: #6900a7;
   margin: 0;
 }
 
 .subtitle {
-  font-size: 3.5rem;
+  font-size: 3rem;
   margin-top: 0px;
+}
+
+.Landing-info a {
+  font-size: 1.4rem;
 }
 
 .subtitle--imp {
   color: #6900a7;
+}
+
+@media screen and (min-width: 600px) {
+  .title {
+    font-size: 5.5rem;
+  }
+
+  .subtitle {
+    font-size: 3.5rem;
+  }
+
+  .Landing-info a {
+    font-size: 1.7rem;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .Landing {
+    background-position: right;
+  }
 }
