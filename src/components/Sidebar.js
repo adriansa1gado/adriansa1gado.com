@@ -37,7 +37,7 @@ function Sidebar() {
           <a
             target="_blank"
             rel="noreferrer"
-            href="https://drive.google.com/uc?id=1GPwcbGoPntcenbh55rXPMC8vLUHU3n6b&export=download"
+            href="https://drive.google.com/file/d/1_GD7tkVTvec1SJ9xkN5xBUPaQ_se6eIy/view?usp=sharing"
           >
             <i className="bx bx-download"></i>
             <span className="links-name">Download CV</span>

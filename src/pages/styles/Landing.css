@@ -3,7 +3,7 @@
   display: flex;
   align-items: center;
   background-image: linear-gradient(90deg, #00010e 25%, #00010c2c, #00010c 95%),
-    url('../../images/background.png'), linear-gradient(90deg, #00010e, #00010e);
+    url('../../images/background.png');
   background-position: center;
   background-size: auto;
   background-repeat: no-repeat;
@@ -11,7 +11,7 @@
 }
 
 .Landing-info {
-  margin: 0px 78px 0px 5%;
+  margin: 0px 80px 0px 5%;
 }
 
 .title {

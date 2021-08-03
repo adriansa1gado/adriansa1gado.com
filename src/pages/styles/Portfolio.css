@@ -1,0 +1,17 @@
+.info {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.info h1 {
+  margin-top: 0px;
+  color: white;
+}
+
+.info img {
+  width: 500px;
+  margin: 0 auto;
+}

@@ -12,6 +12,7 @@ body {
   margin: 0;
   font-family: 'Roboto', sans-serif;
   font-size: 1.7rem;
+  background: linear-gradient(90deg, #00010e, #00010e);
 }
 
 ul,

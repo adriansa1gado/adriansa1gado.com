@@ -1,5 +1,7 @@
+import Workgon from '../components/Workgon'
+
 function About() {
-  return 'conoce sobre mi'
+  return <Workgon />
 }
 
 export default About

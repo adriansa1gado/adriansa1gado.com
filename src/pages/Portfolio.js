@@ -1,5 +1,7 @@
+import Workgon from '../components/Workgon'
+
 function Portfolio() {
-  return 'Aca esta mi portafolio'
+  return <Workgon />
 }
 
 export default Portfolio

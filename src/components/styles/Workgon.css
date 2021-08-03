@@ -1,0 +1,33 @@
+.Workgon {
+  min-width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  text-align: center;
+}
+
+.Workgon-info {
+  margin: 0px 80px 15px 0px;
+  padding: 0px 15px;
+  font-size: 3.2rem;
+}
+
+.Workgon-img {
+  width: 80%;
+  max-width: 400px;
+  margin-right: 80px;
+}
+
+@media screen and (min-width: 600px) {
+  .Workgon-img {
+    margin: 0px;
+  }
+
+  .Workgon-info {
+    margin: 0px 0px 15px 0px;
+    font-size: 3.4rem;
+  }
+}
